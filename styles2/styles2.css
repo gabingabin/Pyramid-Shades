@@ -128,6 +128,13 @@ div.characteristics div.line img{
 
 /* liste */
 
+div.tentImage h3{
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
 ul{
   display: flex;
   flex-direction: row;
@@ -148,4 +155,8 @@ ul li img{
   width: 40px;
   height: 40px;
   margin-left: 10%;
+}
+
+li.current{
+  border: thin solid #2980b9;
 }
