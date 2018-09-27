@@ -102,11 +102,12 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin-top: 20%;
+  
 }
 .skw-page__description {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
-  text-align: center;
+  text-align:;
   margin-top: 20%;
 }
 .skw-page__link {
@@ -142,3 +143,78 @@ body {
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #426899;
 }
+
+/* responsive */
+
+@media screen and (min-width: 640px) and (max-width: 940px){
+  div.explanation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  div.explanationLeft{
+    width: 90%;
+  }
+  div.explanationRight{
+    width: 90%;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div.logo{
+    max-width: none;
+    margin: 7% 0%;
+  }
+  header a.logo img{
+    width: 200%;
+  }
+  header ul li{
+    margin-left: 5%;
+    font-size: 80%;
+  }
+  header a.kickstarter img{
+    width: 55%;
+  }
+  header a.kickstarter{
+    width: 120px;
+    padding:0;
+  }
+}
+
+
+@media screen and (max-width: 760px){
+
+  .skw-page-1 .skw-page__half--left .skw-page__content {
+    background-image: url("../images/background.jpg");
+  
+  }
+  .skw-page-1 .skw-page__half--right .skw-page__content {
+    background: #426899;
+  }
+  .skw-page-2 .skw-page__half--left .skw-page__content {
+    background: #426899;
+  }
+  .skw-page-2 .skw-page__half--right .skw-page__content {
+    background-image: url("../images/background-op.jpg");
+  }
+  .skw-page-3 .skw-page__half--left .skw-page__content {
+    background-image: url("../images/backback.jpg");
+  }
+  .skw-page-3 .skw-page__half--right .skw-page__content {
+    background: #426899;
+  }
+  .skw-page-4 .skw-page__half--left .skw-page__content {
+    background: #426899;
+  }
+  .skw-page-4 .skw-page__half--right .skw-page__content {
+    background-image: url("../images/");
+  }
+  .skw-page-5 .skw-page__half--left .skw-page__content {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/img-test.jpg");
+  }
+  .skw-page-5 .skw-page__half--right .skw-page__content {
+    background: #426899;
+  }
