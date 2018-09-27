@@ -200,6 +200,52 @@ div.explanationRight{
   width: 40%
 }
 
+/* footer */
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background: white;
+font-family: 'Montserrat', sans-serif;
+}
+
+div.logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+div.logo img{
+width: 80px;
+height: 65px;
+}
+
+div.logo img.pinterest{
+width: 65px;
+height: 65px;
+}
+
+footer a.logo-footer{
+margin: 10px 10px 20px 0px;
+}
+
+img.logo-footer{
+width: 200px;
+height: 90px;
+}
+
+div.footer{
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+div.footer a{
+text-decoration: none;
+}
+
 /* Responsive */
 
 @media screen and (min-width: 640px) and (max-width: 940px){
@@ -213,6 +259,16 @@ div.explanationRight{
   }
   div.explanationRight{
     width: 90%;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div.logo{
+    max-width: none;
+    margin: 7% 0%;
   }
 }
 
@@ -238,5 +294,18 @@ div.explanationRight{
   }
   div.explanationRight{
     width: 90%;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  div.logo{
+    max-width: none;
+    margin: 7% 0%;
+  }
+  div.footer{
+    margin: 0% 3%;
   }
 }
