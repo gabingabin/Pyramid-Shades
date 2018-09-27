@@ -7,18 +7,48 @@
 
 /* Header */
 
-
-.header {
-    max-width: 100%;
-    height: 15%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+header{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo{
-    max-width: 20%;
+header a.logo{
+    width: 20%;
+}
+
+header a.logo img{
+    width: 100%;
+}
+
+header ul{
+  display: flex;
+  flex-direction: row;
+}
+
+header ul li{
+  list-style: none;
+  font-family: 'Futura';
+  font-weight: bold;
+  margin-left: 50%;
+}
+
+header ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+header a.kickstarter img{
+  width: 40%;
+}
+
+/* body */
+
+html, body{
+    height: 100%;
 }
 
 
@@ -30,45 +60,7 @@
   margin: 20%;
   margin-left: 27%;
   z-index: 20;
-
-
 }
-.li1{
-    list-style: none;
-    margin-right: 12%;
-}
-
-.li1 a{
-    text-decoration: none;
-    color:black;
-    font-family: 'Futura';
-    font-weight: bold;
-}
-
-.li2{
-    list-style: none;
-    margin-right: 7%;
-}
-
-.li2 a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Futura';
-    font-weight: bold;
-}
-
-.kickstarter{
-    width: 40%;
-    margin-left: 35%;
-}
-
-
-/* body */
-
-html, body{
-    height: 100%;
-}
-
 
 .home{
     position: absolute;
@@ -86,18 +78,185 @@ html, body{
     height:100%;
 }
 
+/*Decor1*/
+
+div.decor1{
+  background-image: url("../images/décor3.png");
+  width: 100%;
+  height: 100%;
+}
+
+div.decor1 div.bigTxt{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+div.decor1 div.bigTxt div.line{
+  width: 70%;
+  border-top: 8px solid white;
+  margin-top: 15%;
+}
+
+div.decor1 div.bigTxt span{
+  font-size: 600%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.decor1 div.smallTxt{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 65%;
+  margin-top: 28%;
+}
+
+div.decor1 div.smallTxt div.line{
+  width: 85%;
+  border-top: 8px solid black;
+  margin-top: 5%;
+}
+
+div.decor1 div.smallTxt span{
+  font-size: 150%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+/*Décor 2*/
+
+div.decor2{
+  background-image: url("../images/décor2.png");
+  width: 100%;
+  height: 100%;
+}
+
+div.decor2 div.bigTxt{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+div.decor2 div.bigTxt div.line{
+  width: 70%;
+  border-top: 8px solid white;
+  margin-top: 15%;
+}
+
+div.decor2 div.bigTxt span{
+  font-size: 600%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.decor2 div.smallTxt{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 65%;
+  margin-top: 28%;
+}
+
+div.decor2 div.smallTxt div.line{
+  width: 85%;
+  border-top: 8px solid white;
+  margin-top: 5%;
+}
+
+div.decor2 div.smallTxt span{
+  font-size: 150%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+/*Décor 3*/
+
+div.decor3{
+  background-image: url("../images/Décor1.png");
+  width: 100%;
+  height: 100%;
+}
+
+div.decor3 div.bigTxt{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+div.decor3 div.bigTxt div.line{
+  width: 70%;
+  border-top: 8px solid white;
+  margin-top: 15%;
+}
+
+div.decor3 div.bigTxt span{
+  font-size: 600%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.decor3 div.smallTxt{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 65%;
+  margin-top: 28%;
+}
+
+div.decor3 div.smallTxt div.line{
+  width: 85%;
+  border-top: 8px solid white;
+  margin-top: 5%;
+}
+
+div.decor3 div.smallTxt span{
+  font-size: 150%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
 /*Body-Donate*/
 
-.triangle{
+img.triangle{
     width: 50%;
     height: 100%;
+    position: relative;
 }
 
 div.donate{
   display: flex;
   align-items: center;
-
 }
+
+div.donate span{
+  position: absolute;
+  font-size: 500%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div.donate span.span2{
+  margin-top: 5%;
+  margin-left: 9%;
+}
+
+div.donate span.span1{
+  margin-left: 5%;
+}
+
 
   /* footer */
 
@@ -160,6 +319,41 @@ div.footer a{
     max-width: none;
     margin: 7% 0%;
   }
+  header a.logo img{
+    width: 200%;
+  }
+  header ul li{
+    margin-left: 5%;
+    font-size: 80%;
+  }
+  header a.kickstarter img{
+    width: 55%;
+  }
+  header a.kickstarter{
+    width: 120px;
+    padding:0;
+  }
+  img.triangle{
+    visibility: hidden;
+    width: 0%;
+  }
+  div.donate span.span2{
+    visibility: hidden;
+    width: 0%;
+  }
+  div.donate span.span1{
+    visibility: hidden;
+    width: 0%;
+  }
+  div.donate video{
+    width: 100%;
+    height: auto;
+  }
+  div.donate{
+    margin: 0;
+    padding: 0;
+    height: 45%;
+  }
 }
 
 @media screen and (max-width: 760px){
@@ -175,5 +369,40 @@ div.footer a{
   }
   div.footer{
     margin: 0% 3%;
+  }
+  header ul li{
+    margin-left: 5%;
+    font-size: 50%;
+  }
+  header a.kickstarter img{
+    width: 55%;
+  }
+  header a.kickstarter{
+    width: 60px;
+    padding:0;
+  }
+  header a.logo img{
+    width: 200%;
+  }
+  img.triangle{
+    visibility: hidden;
+    width: 0%;
+  }
+  div.donate span.span2{
+    visibility: hidden;
+    width: 0%;
+  }
+  div.donate span.span1{
+    visibility: hidden;
+    width: 0%;
+  }
+  div.donate video{
+    width: 100%;
+    height: auto;
+  }
+  div.donate{
+    margin: 0;
+    padding: 0;
+    height: 45%;
   }
 }

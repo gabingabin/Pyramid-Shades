@@ -3,62 +3,48 @@ body {
     padding: 0;
   }
 
-/* Header */
+  /* Header */
+
+  header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header a.logo{
+      width: 20%;
+  }
+
+  header a.logo img{
+      width: 100%;
+  }
 
 
-.header {
-  max-width: 100%;
-  height: 15%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
+  header ul{
+    display: flex;
+    flex-direction: row;
+  }
 
-.logo{
-  max-width: 20%;
-}
+  header ul li{
+    list-style: none;
+    font-family: 'Futura';
+    font-weight: bold;
+    margin-left: 50%;
+    font-size: 80%;
+  }
 
+  header ul li a{
+    text-decoration: none;
+    color: black;
+  }
 
-.title{
-position: absolute;
-font-family: 'Futura';
-font-size: 4rem;
-color: white;
-margin: 20%;
-margin-left: 27%;
-z-index: 20;
-
-
-}
-.li1{
-  list-style: none;
-  margin-right: 12%;
-}
-
-.li1 a{
-  text-decoration: none;
-  color:black;
-  font-family: 'Futura';
-  font-weight: bold;
-}
-
-.li2{
-  list-style: none;
-  margin-right: 7%;
-}
-
-.li2 a{
-  text-decoration: none;
-  color: black;
-  font-family: 'Futura';
-  font-weight: bold;
-}
-
-.kickstarter{
-  width: 40%;
-  margin-left: 35%;
-}
+  header a.kickstarter img{
+    width: 40%;
+    height: 60%;
+  }
 
 /* Body */
 
@@ -145,7 +131,7 @@ div.tentImage h3{
 }
 
 
-ul{
+ul.colors{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -153,7 +139,7 @@ ul{
   margin-top: 80px;
 }
 
-ul li{
+ul.colors li{
   color: black;
   list-style: none;
   display: flex;
@@ -161,7 +147,7 @@ ul li{
   font-family: 'Montserrat', sans-serif;
 }
 
-ul li img{
+ul.colors li img{
   width: 40px;
   height: 40px;
   margin-left: 10%;
@@ -282,6 +268,20 @@ text-decoration: none;
     max-width: none;
     margin: 7% 0%;
   }
+  header a.logo img{
+    width: 200%;
+  }
+  header ul li{
+    margin-left: 5%;
+    font-size: 80%;
+  }
+  header a.kickstarter img{
+    width: 55%;
+  }
+  header a.kickstarter{
+    width: 120px;
+    padding:0;
+  }
 }
 
 @media screen and (max-width: 760px){
@@ -319,5 +319,19 @@ text-decoration: none;
   }
   div.footer{
     margin: 0% 3%;
+  }
+  header ul li{
+    margin-left: 5%;
+    font-size: 50%;
+  }
+  header a.kickstarter img{
+    width: 55%;
+  }
+  header a.kickstarter{
+    width: 60px;
+    padding:0;
+  }
+  header a.logo img{
+    width: 200%;
   }
 }
