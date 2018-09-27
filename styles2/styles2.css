@@ -160,3 +160,83 @@ ul li img{
 li.current{
   border: thin solid #2980b9;
 }
+
+/* Explanation */
+
+div.explanation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+div.explanation div.line{
+  display: flex;
+  flex-direction: row;
+  margin: 4% 3% 0% 3%;
+}
+
+div.explanation div.line1{
+  margin-top: 12%;
+}
+
+div.explanation div.line p{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 25px;
+}
+
+div.explanation div.line img{
+  width: 60px;
+  height: 60px;
+  margin-top: 2%;
+}
+
+div.explanationLeft{
+  width: 40%
+}
+
+div.explanationRight{
+  width: 40%
+}
+
+/* Responsive */
+
+@media screen and (min-width: 640px) and (max-width: 940px){
+  div.explanation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  div.explanationLeft{
+    width: 90%;
+  }
+  div.explanationRight{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 760px){
+  div.characteristics div.characteristicsLeft{
+    width: 0%;
+    visibility: hidden;
+  }
+  div.characteristics div.characteristicsRight{
+    width: 0%;
+    visibility: hidden;
+  }
+  div.characteristics div.tentImage{
+    width: 90%;
+  }
+  div.explanation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+  }
+  div.explanationLeft{
+    width: 90%;
+  }
+  div.explanationRight{
+    width: 90%;
+  }
+}
