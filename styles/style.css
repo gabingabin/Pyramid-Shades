@@ -22,7 +22,6 @@
 }
 
 
-<<<<<<< HEAD
 .title{
   position: absolute;
   font-family: 'Futura';
@@ -35,9 +34,6 @@
   
 }
 .li1{ 
-=======
-.li1{
->>>>>>> 45c670bb6cbe71277941a5b16e66bacb9f011606
     list-style: none;
     margin-right: 12%;
 }
@@ -77,6 +73,7 @@ html, body{
 .home{
     position: absolute;
     max-width: 100%;
+    max-height: 100%;
 }
 .cache{
     position: relative;
@@ -114,7 +111,6 @@ html, body{
 
 .logo-footer {
     width: 100%;
-    padding-left: 35%;
   }
 
 .footer :nth-child(2){
