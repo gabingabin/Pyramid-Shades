@@ -97,7 +97,7 @@ div.decor1 div.bigTxt{
 div.decor1 div.bigTxt div.line{
   width: 70%;
   border-top: 8px solid white;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 div.decor1 div.bigTxt span{
@@ -117,13 +117,13 @@ div.decor1 div.smallTxt{
 
 div.decor1 div.smallTxt div.line{
   width: 85%;
-  border-top: 8px solid black;
+  border-top: 8px solid white;
   margin-top: 5%;
 }
 
 div.decor1 div.smallTxt span{
   font-size: 150%;
-  color: black;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
 }
@@ -131,7 +131,7 @@ div.decor1 div.smallTxt span{
 /*Décor 2*/
 
 div.decor2{
-  background-image: url("../images/décor2.png");
+  background-image: url("../images/photo2+.jpg");
   width: 100%;
   height: 100%;
 }
@@ -181,7 +181,7 @@ div.decor2 div.smallTxt span{
 /*Décor 3*/
 
 div.decor3{
-  background-image: url("../images/Décor1.png");
+  background-image: url("../images/photo3+.png");
   width: 100%;
   height: 100%;
 }
