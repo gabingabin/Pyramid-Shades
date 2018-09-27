@@ -31,9 +31,9 @@
   margin-left: 27%;
   z-index: 20;
 
-  
+
 }
-.li1{ 
+.li1{
     list-style: none;
     margin-right: 12%;
 }
@@ -98,7 +98,31 @@ html, body{
 
   /* footer */
 
-.footer{
+footer{
+  display: flex;
+  flex-direction: row;
+}
+
+div.logo{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+}
+
+div.logo img{
+  width: 100px;
+  height: 80px;
+}
+
+div.logo img.pinterest{
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+/*.footer{
     width: 100%;
     height: 20%;
     background-color: white;
@@ -124,4 +148,4 @@ html, body{
     color: black;
     padding-top: 5%;
     padding-left: 40%;
-  }
+  }*/
