@@ -1,54 +1,63 @@
 body {
     margin: 0;
     padding: 0;
-    background: black;
   }
 
 /* Header */
 
 
 .header {
-    max-width: 100%;
-    height: 15%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  max-width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo{
-    max-width: 20%;
+  max-width: 20%;
 }
 
 
+.title{
+position: absolute;
+font-family: 'Futura';
+font-size: 4rem;
+color: white;
+margin: 20%;
+margin-left: 27%;
+z-index: 20;
+
+
+}
 .li1{
-    list-style: none;
-    margin-right: 12%;
+  list-style: none;
+  margin-right: 12%;
 }
 
 .li1 a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+  text-decoration: none;
+  color:black;
+  font-family: 'Futura';
+  font-weight: bold;
 }
 
 .li2{
-    list-style: none;
-    margin-right: 7%;
+  list-style: none;
+  margin-right: 7%;
 }
 
 .li2 a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-family: 'Futura';
+  font-weight: bold;
 }
 
 .kickstarter{
-    width: 40%;
-    margin-left: 35%;
+  width: 40%;
+  margin-left: 35%;
 }
 
 /* Body */
@@ -59,11 +68,10 @@ div.characteristics{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background: black;
 }
 
 div.characteristics span{
-  color: white;
+  color: black;
 }
 
 div.characteristics div.characteristicsLeft{
@@ -112,7 +120,7 @@ div.characteristics div.characteristicsRight div.line span{
 div.characteristics span{
   font-family: 'Montserrat', sans-serif;
   width: 100%;
-  border-bottom: solid white 1px;
+  border-bottom: solid black 1px;
   height: 50%;
 }
 
@@ -129,7 +137,7 @@ div.characteristics div.line img{
 /* liste */
 
 div.tentImage h3{
-  color: white;
+  color: black;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -144,7 +152,7 @@ ul{
 }
 
 ul li{
-  color: white;
+  color: black;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -167,7 +175,7 @@ div.explanation{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 10%;
+  margin: 10% 0;
 }
 
 div.explanation div.line{
@@ -181,7 +189,7 @@ div.explanation div.line1{
 }
 
 div.explanation div.line p{
-  color: white;
+  color: black;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 25px;
 }
