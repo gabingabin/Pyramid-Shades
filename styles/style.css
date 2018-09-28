@@ -92,6 +92,13 @@ div.decor1{
   height: 100%;
 }
 
+div.decor1p{
+  background-image: url("../images/decor1+.png");
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
 div.decor1 div.bigTxt{
   width: 40%;
   display: flex;
@@ -121,17 +128,13 @@ div.decor1 div.smallTxt{
   margin-top: 23%;
 }
 
-div.decor1 div.smallTxt div.line{
-  width: 85%;
-  border-top: 8px solid white;
-  margin-top: 5%;
-}
-
 div.decor1 div.smallTxt span{
   font-size: 150%;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  border: 7px solid white;
+  padding: 10px;
 }
 
 /*Décor 2*/
@@ -140,6 +143,13 @@ div.decor2{
   background-image: url("../images/photo2+.jpg");
   width: 100%;
   height: 100%;
+}
+
+div.decor2p{
+  background-image: url("../images/decor2+.png");
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
 
 div.decor2 div.bigTxt{
@@ -171,25 +181,29 @@ div.decor2 div.smallTxt{
   margin-top: 28%;
 }
 
-div.decor2 div.smallTxt div.line{
-  width: 85%;
-  border-top: 8px solid white;
-  margin-top: 5%;
-}
 
 div.decor2 div.smallTxt span{
   font-size: 150%;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  border: 7px solid white;
+  padding: 10px;
 }
 
 /*Décor 3*/
 
 div.decor3{
-  background-image: url("../images/photo3+.png");
+  background-image: url("../images/Décor1.png");
   width: 100%;
   height: 100%;
+}
+
+div.decor3p{
+  background-image: url("../images/decor3+.png");
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
 
 div.decor3 div.bigTxt{
@@ -221,17 +235,13 @@ div.decor3 div.smallTxt{
   margin-top: 25%;
 }
 
-div.decor3 div.smallTxt div.line{
-  width: 85%;
-  border-top: 8px solid white;
-  margin-top: 5%;
-}
-
 div.decor3 div.smallTxt span{
   font-size: 150%;
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
+  border: 7px solid white;
+  padding: 10px;
 }
 
 /* scrolling button */
