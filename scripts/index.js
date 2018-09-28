@@ -34,7 +34,7 @@ $(document).ready(function() {
     if (scrolling) return;
     if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
       navigateUp();
-    } else { 
+    } else {
       navigateDown();
     }
   });
