@@ -123,6 +123,11 @@ div.characteristics div.characteristicsRight div.line{
   justify-content: flex-end;
 }
 
+.hover:hover{
+  opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+
 div.characteristics div.line img{
   width: 60px;
   height: 60px;
