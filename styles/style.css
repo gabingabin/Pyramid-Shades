@@ -133,14 +133,14 @@ div.decor1 div.smallTxt span{
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
-  border: 7px solid white;
+  border: 4px solid white;
   padding: 10px;
 }
 
 /*Décor 2*/
 
 div.decor2{
-  background-image: url("../images/photo2+.jpg");
+  background-image: url("../images/décor2.png");
   width: 100%;
   height: 100%;
 }
@@ -187,7 +187,7 @@ div.decor2 div.smallTxt span{
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
-  border: 7px solid white;
+  border: 4px solid white;
   padding: 10px;
 }
 
@@ -240,7 +240,7 @@ div.decor3 div.smallTxt span{
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
-  border: 7px solid white;
+  border: 4px solid white;
   padding: 10px;
 }
 
@@ -261,13 +261,13 @@ div.decor3 div.smallTxt span{
  
 #mouse-scroll span{
   display: block;
-  width: 10px; 
+  width: 10px;
   height: 10px;
   -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
        transform: rotate(45deg);
        transform: rotate(45deg);
-  border-right: 2px solid #fff; 
+  border-right: 2px solid #fff;
   border-bottom: 2px solid #fff;
   margin: 0 0 3px 5px;
 }
@@ -285,16 +285,16 @@ div.decor3 div.smallTxt span{
   margin-top: 6px;
 }
 #mouse-scroll .down-arrow-1, #mouse-scroll .down-arrow-2, #mouse-scroll .down-arrow-3 {
-  -webkit-animation: mouse-scroll 1s infinite; 
+  -webkit-animation: mouse-scroll 1s infinite;
     -moz-animation: mouse-scroll 1s infinite:
 }
 #mouse-croll .down-arrow-1 {
-   -webkit-animation-delay: .1s; 
+   -webkit-animation-delay: .1s;
    -moz-animation-delay: .1s;
    -webkit-animation-direction: alternate;
 }
 #mouse-scroll .down-arrow-2 {
-  -webkit-animation-delay: .2s; 
+  -webkit-animation-delay: .2s;
   -moz-animation-delay: .2s;
   -webkit-animation-direction: alternate;
 }
@@ -306,7 +306,7 @@ div.decor3 div.smallTxt span{
 #mouse-scroll .mouse-in {
   height: 5px;
   width: 2px;
-  display: block; 
+  display: block;
   margin: 5px auto;
   background: #ffffff;
   position: relative;
@@ -339,7 +339,7 @@ div.decor3 div.smallTxt span{
   }
   100% {
     opacity: 1;
-  } 
+  }
 }
 @keyframes mouse-scroll {
   0% {
